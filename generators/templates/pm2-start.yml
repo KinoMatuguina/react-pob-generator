@@ -1,0 +1,3 @@
+apps:
+  name: "frontend-react-f4-boilerplate"
+  script: "./start-script.sh"

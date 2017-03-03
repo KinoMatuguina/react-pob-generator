@@ -1,0 +1,680 @@
+html, body {
+  overflow: hidden !important;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 15px;
+  background-color: #f1f1f1 !important;
+  /*overflow: hidden;*/
+  /*overflow-y: auto !important;*/
+}
+
+a, input {
+  outline: none;
+}
+
+#root {
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  height: 100%;
+}
+
+.form-control .f4Textfield {
+  border-radius: 0px;
+}
+
+.modal-open {
+  overflow: hidden !important;
+}
+.f4ToolbarTitle > span.fa {
+  vertical-align: middle;
+}
+
+.modal-content {
+  box-shadow: none !important;
+  border-radius: 3px !important;
+}
+
+.modal-header {
+  background-color: #002242 !important;
+  color: white !important;
+}
+
+.close {
+  color: white !important;
+  opacity: 1;
+  padding-top: 2px !important;
+}
+
+#loader {
+  overflow: hidden !important;
+  opacity: 0.6 !important;
+  -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-style: italic;
+  font-size: 13px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-style: italic;
+  font-size: 13px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-style: italic;
+  font-size: 13px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-style: italic;
+  font-size: 13px;
+}
+
+
+/* FOOTER */
+#push {
+  height: 250px;
+}
+
+
+.row {
+  margin-bottom: 15px !important;
+}
+
+/*====== RC MENU ===== */
+.rc-menu {
+  position: relative;
+  width: 100%;
+  border: none !important;
+  border-radius: 0px !important;
+  color: white !important;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+// .rc-menu-item a {
+//   color: white !important;
+//   text-decoration: none;
+// }
+//
+// .rc-menu-item-active a {
+//   color: #2d71b3 !important;
+//   text-decoration: none;
+// }
+
+.rc-menu-submenu > .rc-menu {
+  background-color: #13304d !important;
+  color: white !important;
+}
+
+.rc-menu-item-selected,
+.rc-menu-item-active,
+.rc-menu-submenu-active > .rc-menu-submenu-title {
+  background-color: #f1f1f1 !important;
+  color: #2d71b3 !important;
+}
+
+.rc-menu-item {
+  cursor: pointer !important;
+}
+
+.f4Content {
+  overflow: hidden !important;
+  overflow-y: hidden !important;
+  padding-bottom: 200px !important;
+}
+
+
+.f4Modal.f4InputDatePicker > .modal-dialog {
+  margin-top: 5%;
+}
+
+.ftAccountPanel,
+.ftAccountPanelSelected {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid gray;
+
+  transition: all 0.25s ease;
+}
+
+.ftAccountPanelSelected {
+  color: white;
+  background-color: #2d71b3;
+
+  transform: scale(1.02);
+}
+
+.ftAccountPanelSelected .ftAccountPanelHeader .fa,
+.ftAccountPanelSelected .ftAccountPanelHeader span {
+  color: white !important;
+}
+
+
+.ftAccountPanelHeader {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.ftAccountPanelHeader span {
+  color: #2d71b3;
+  float: left;
+}
+
+.ftAccountPanelHeaderIcon {
+  margin-right: 10px;
+}
+
+.ftAccountPanelHeaderAlias {
+  text-align: left;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 70%;
+}
+
+/** SLICK **/
+.f4InputCarouselList {
+  padding: 10px 30px 10px 30px;
+  /*border-top: 1px solid #2d71b3;*/
+}
+
+.f4InputCarouselList .f4InputCarouselListSlide {
+  /*background: #2d71b3;
+  color: #fff;
+  font-size: 36px;*/
+  /*line-height: 100px;
+  margin: 10px;
+  padding: 2%;*/
+  margin: 10px;
+  position: relative;
+  /*padding: 0px 10px 0px 10px;*/
+  /*text-align: center;*/
+}
+
+
+.variable-width .slick-slide p {
+  background: #2d71b3;
+  height: 100px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.center .slick-center .f4InputCarouselListSlide {
+  color: white;
+  background-color: #2d71b3;
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+.center .slick-center .f4InputCarouselListSlide .ftAccountPanelHeaderAlias, .center .slick-center .f4InputCarouselListSlide .ftAccountPanelHeader .fa {
+  color: white !important;
+  font-size: 15px !important;
+}
+
+.f4InputCarouselListSlide.f4Toolbar.f4ToolbarTitle.f4ToolbarTitleText {
+  font-size: 10px !important;
+}
+
+.center .f4InputCarouselListSlide {
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 20px;
+  margin: auto;
+  width: 90%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  border: 5px solid #FFF;
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+}
+
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+
+
+
+
+/**
+* f4InputCarouselPicker
+*/
+.f4InputCarouselPicker {
+  position: relative;
+}
+
+.f4InputCarouselPickerPrev,
+.f4InputCarouselPickerNext {
+  position: absolute;
+  opacity: 0.5;
+  top: 40%;
+  width: 42px;
+  height: 42px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.f4InputCarouselPickerPrev:hover,
+.f4InputCarouselPickerNext:hover {
+
+  border-radius: 50%;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.f4InputCarouselPickerPrev {
+  left: 0;
+}
+
+.f4InputCarouselPickerNext {
+  right: 0;
+}
+
+.f4InputCarouselPickerSlide {
+  padding: 0 10px;
+  min-height: 180px;
+}
+
+/**
+* react flip card
+*/
+.ReactFlipCard {
+  margin: 25px;
+  text-align: center;
+}
+.ReactFlipCard,
+.ReactFlipCard__Front,
+.ReactFlipCard__Back {
+  box-sizing: border-box;
+  width: 350px;
+  height: 200px;
+}
+.ReactFlipCard__Front,
+.ReactFlipCard__Back {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  background-color: #a3c7d8 !important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.ReactFlipCard__Front {
+  background-color: #eee;
+}
+.ReactFlipCard__Back {
+  background-color: #cef;
+  padding: 0 !important;
+}
+
+
+/**
+* activityLogPanel
+*/
+.activityLogPanel {
+  display: inline-block;
+  width: 100%;
+  background: white;
+}
+
+.activityLogPanelTop {
+  width: 100%;
+  display: inline-block;
+}
+
+
+.activityLogPanelIcon,
+.activityLogPanelHeaderContainer {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+}
+
+.activityLogPanelHeaderContainer {
+  margin: 15px 15px 15px 0px;
+  max-width: 55%;
+  overflow: hidden;
+}
+
+
+.activityLogPanelContentHeader {
+  color: #2d71b3;
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.activityLogPanelContentTime {
+  font-size: 13px;
+  color: #a3c7d8;
+}
+
+.activityLogPanelContentMessage {
+  padding: 0px 15px 15px 15px;
+  color: #000;
+}
+.activityLogPanelContentMessage > p {
+  text-align: justify;
+  font-size: 14px;
+}
+.profile-wrapper .image-wrapper, .profile-wrapper .info-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+.profile-wrapper .image-wrapper img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.profile-wrapper .info-wrapper p:first-child {
+  font-weight: bold;
+  margin: 10px 0;
+  text-shadow: 0 1px 1px #CCC;
+  text-transform: uppercase;
+}
+.profile-wrapper .info-wrapper p {
+  color: #0f6cb6;
+  margin: 0;
+  line-height: 1.5;
+}
+.profile-wrapper .info-wrapper p span {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  margin-right: 10px;
+}
+.ai-wrapper .actions-wrapper .action-element{
+  display: inline-block;
+  width: 49%;
+  color: #0f6cb6;
+  text-align: center;
+}
+.ai-wrapper .actions-wrapper .action-element:hover {
+  color: #204d74;
+}
+.ai-wrapper .actions-wrapper .action-element span,
+.ai-wrapper .actions-wrapper .action-element p {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.ai-wrapper .actions-wrapper .action-element p {
+
+}
+.clearfix {
+  clear: both;
+  margin: 10px 0;
+}  
+.pad-left-15 { 
+  padding: 0 0 0 15px;
+}
+button + h1 {
+  flex: 0 !important;
+}
+.base-logo {
+  width: calc(222px / 2);
+  height: calc(40px / 2);
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.F4Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  z-index: 100;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.55);
+}
+.F4HeaderLeft .fa.fa-bars {
+  font-size: 1.5em;
+  margin-top: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.F4Header + .container-fluid {
+  padding-top: 60px;
+}
+.F4HeaderLeft {
+  display:  inline-block;
+}
+.F4HeaderLeft div, .F4HeaderRight div {
+  display: inline-block;
+  vertical-align: top;
+}
+.F4HeaderRight {
+  float: right;
+  margin-top: 10px
+}
+.F4HeaderRight span {
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.nav-item-text {
+  font-size: 13px;
+  margin: 0;
+  /*color: #FFF;*/
+}
+.cardTitle span {
+  text-transform: capitalize;
+  font-size: 1.3em !important;
+}
+.container-fluid {
+  margin-top: 60px;
+}
+.infoText {
+  display: inline-block; ;
+  width: 256px;
+  /*margin: 0 auto;*/
+}
+.amountAndRemaks {
+  display: block;
+  margin: 0 !important;
+}
+.rb-group {
+  display: block;
+  text-align: center;
+}
+.rb-item {
+  display: inline-block !important;
+  width: 25% !important;
+  margin-right: 10px;
+}
+.ft-one-time ,
+.ft-recurring{
+  text-align: center;
+}
+.recurring-monthly > div {
+  text-align: left;
+}
+
+.ft-one-time > div:first-child,
+.ft-recurring > div:first-child {
+  text-align: left;
+}
+
+.blocked {
+  display: block;
+}
+.static-text-error {
+  line-height: 1.5;
+  padding: 0 20px 20px 20px;
+}
+.static-text-error a{
+  text-decoration: none;
+}
+.static-text-error p {
+  margin: 0;
+}
+.ftfrom-wrapper {
+  padding: 20px;
+}
+.ftfrom-card-wrapper {
+  padding: 10px 10px 10px 10px;
+}
+.slick-arrow.slick-next {
+  right: 0;
+}
+.slick-arrow.slick-prev {
+  left: 0;
+}
+.slick-next:before, .slick-prev:before {
+  color: #000;
+}
+.slick-slider {
+  margin-top: 0;
+}
+.ft-account-number,
+.ft-account-balance,
+.ft-account-text {
+  padding: 0 16px 5px 16px;
+  margin: 0 !important;
+  line-height: 1.5;
+}
+.ft-account-number {
+  font-size: 13px;
+  max-width: 220px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+input {
+  /*margin-top: 0 !important;*/
+}
+.loader {
+  height: 4px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd;
+}
+.loader:before{
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 4px;
+  background-color: #2980b9;
+  animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    from {left: -200px; width: 30%;}
+    50% {width: 30%;}
+    70% {width: 70%;}
+    80% { left: 50%;}
+    95% {left: 120%;}
+    to {left: 100%;}
+}
+
+.ftFinder-result {
+  padding: 20px
+}
+
+.ftFinder-result p {
+  padding: 5px 10px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.cardTitle.active span:first-child {
+  color: #FFF !important;
+}
+.checkbox-wrapper {
+  width: 256px;
+  display: block;
+  margin: 0 auto;
+}
+.monthly-wrapper {
+  display: block;
+  /*margin: 0 auto;*/
+}
+.monthly-select-wrapper {
+  margin-bottom: 20px;
+}
+.flex {
+  display: flex;
+  margin: 10px 0;
+}
+.transaction-card {
+  padding: 10px;
+}
+.transaction-card h4 {
+  margin-top: 0;
+  font-size: 1.5em;
+  text-align: center;
+}
+.transaction-card p {
+  margin: 0;
+  font-size: .8em;
+  text-align: center;
+}
+.transaction-title h4 {
+  text-align: center;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.badge-number {
+    position: absolute !important;
+    padding: 12px !important;
+    margin-bottom: 0px !important;
+    right: 220px !important;
+}
+table {
+  table-layout: initial !important;
+  overflow-x: auto !important; 
+}
+
+th, td {
+  min-width: 160px !important;
+  max-width: 200px !important;
+}
+div[style*="height:inherit;overflow-x:hidden;overflow-y:auto;mui-prepared:;"] {
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+.td-title {
+  padding: 10px;
+}
+.td-result {
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .F4HeaderRight {
+    display: none;
+  }
+}
+
+/*#0f6cb6*/
+/*#204d74*/
