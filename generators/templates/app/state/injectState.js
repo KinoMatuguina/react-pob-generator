@@ -6,7 +6,6 @@ const { UIStore, AuthStore, AppStore } = BaseStores;
 
 
 /* plop will append store imports here */
-import AccountInfoStoreStore from '../stores/AccountInfoStoreStore';
 
 
 export default (state) => ({
@@ -16,5 +15,5 @@ export default (state) => ({
   //add your stores here
 
   /* plop will append stores here */
-	AccountInfoStoreStore: new AccountInfoStoreStore(state.AccountInfoStoreStore)
+
 });

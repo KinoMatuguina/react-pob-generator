@@ -6,9 +6,6 @@ import { BaseContainers } from 'frontend-react-f4-base-ui';
 import App from './containers/App/App';
 
 /* plop will append container imports here */
-import AccountListCTR from './containers/AccountListCTR/AccountListCTR';
-import TransactionListCTR from './containers/TransactionListCTR/TransactionListCTR';
-import ActivityHistoryCTR from './containers/ActivityHistoryCTR/ActivityHistoryCTR';
 
 const { connect } = BaseContext;
 
@@ -39,9 +36,6 @@ export default (
     {/*<IndexRoute component={AccountInquiryCTR} />*/}
     
     {/* plop will append routes here */}
-		<Route path={path + "/account-list"} component={ AccountListCTR } />
-		<Route path={path + "/transaction-list"} component={ TransactionListCTR } />
-		<Route path={path + "/activity-history"} component={ ActivityHistoryCTR } />
 
     <Route path="*" component={App}/>
   </Route>
